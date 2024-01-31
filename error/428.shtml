@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    
-    <title>Payload Too Large</title>
+    <title>Precondition Required</title>
 </head>
 
 <body class="flex items-center justify-center h-screen font-sans bg-gray-100">
     <main class="text-center">
         <div class="text-center font-sans bg-white p-8 rounded-lg shadow-md">
-            <p class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-semibold text-orange-500">413</p>
-            <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Payload Too Large</h1>
-            <p class="mt-6 text-base leading-7 text-gray-600">The request payload is larger than the server is willing or able to process.</p>
+            <p class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-semibold text-orange-500">428</p>
+            <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">Precondition Required</h1>
+            <p class="mt-6 text-base leading-7 text-gray-600">Hold your horses! Before proceeding, we need a certain condition to be met. It's like entering a secret club with a secret handshake.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
                 <a onclick="history.back()" class="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800">Go back</a>
                 <a href="https://kukiku.support" class="text-sm font-semibold text-gray-900">Contact support <span aria-hidden="true">&rarr;</span></a>
